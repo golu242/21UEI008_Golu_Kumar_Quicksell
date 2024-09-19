@@ -72,13 +72,7 @@ const TopNav = () => {
                   <option value="priority">Priority</option>
                 </select>
               </div>
-              <div className="selectGroup flex-sb">
-                <span>Ordering</span>
-                <select value={orderValue} onChange={(e) => handleGroupValue(e, false)} className="selectStyle" name="order" id="order">
-                  <option value="priority">Priority</option>
-                  <option value="title">Title</option>
-                </select>
-              </div>
+             
             </div>
           </>
         )}
